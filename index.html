@@ -16,6 +16,19 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <button id="backToTop">Top</button>
+        <script src="main.js"></script>
+        <div class="section">
+            <nav>
+                <ul>
+                    <li><a href="#section1">About me</a></li>
+                    <li><a href="#section2">Projects</a></li>
+                    <li><a href="#section3">Skills</a></li>
+                    <li><a href="#section4">Education</a></li>
+                    <li><a href="#section5">Extracurricular activities</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="main">
             <div class="container">
                 <div class="row" style="margin-top: 5%;margin-left: 5%; margin-right: 5%;">
@@ -24,26 +37,80 @@
                         <h5>Engineering student</h5>
                         <h4><a class="hidden" target="_blank" href="https://centrale-casablanca.ma/">Ecole Centrale Casablanca</a></h5>
                         <h5><a class="hidden" target="_blank" href="https://www.linkedin.com/in/rayane-yajjou-b02a9a285/">LinkedIn</a></h5>
+                        <h5><a class="hidden" target="_blank" href="https://github.com/rayaneYAJJOU">Github</a></h5>
                         <h5><a class="hidden" target="_blank" href="docs/CV_en.pdf">CV</a></h5>
-                        <h5><a class="hidden" target="_blank" href="docs/CV_fr.pdf">CV (french)</a></h5>
+                        <h5><a class="hidden" href="mailto:rayaneyj0303@gmail.com">rayaneyj0303@gmail.com</a></h5>
                     </div>
                     <div class="five columns" style="width: 37;float: right;margin-top: 2%;">
                         <img class="hs" src="images/me.png" alt="headshot" width="200">
                     </div>
                 </div>
-                <div class="row" style="margin-left: 5%; margin-right: 5%;">
+                <div id="section1" class="row" style="margin-left: 5%; margin-right: 5%;">
                     <hr>
                     <div class="twelve columns">
                         <h2>About me</h2>
                         <p>
-                            My name is Rayane Yajjou and I am 19 years old. Currently, I am an engineering student at Ecole Centrale Casablanca. Prior to joining it,
+                            My name is Rayane Yajjou and I am 20 years old. Currently, I am an engineering student at Ecole Centrale Casablanca. Prior to joining it,
                             I completed two years of preparatory program (CPGE) in Lycée Moulay Youssef. I educate myself on various topics, but I am very interested in mathematics, computer science, and physics.
                         </p>
                         <hr>
+                    </div>
+                </div>
+                <div id="section2" class="row" style="margin-left: 5%; margin-right: 5%;">
+                    <div class="twelve columns">
+                        <h2>Projects</h2>
+                        <ul>
+                            <li><strong>Machine learning project | Ecole Centrale Casablanca | September 2023 - June 2024</strong></li>
+                            <p style="margin-top: 0; margin-bottom: 0;">Group project developed througout the whole year, aimed at improving distinction between students' skillsets and profiles, using classification models and unsupervised ML.</p>
+                            <h5 style="margin-top: 2%; margin-bottom: 2%;">Skills: Machine learning, Web development, Programming (Python)</h6>
+
+                            <li><strong>Coding week ML project | Ecole Centrale Casablanca | March 2024</strong></li>
+                            <p style="margin-top: 0; margin-bottom: 0;">Week long project using machine learning to detect fraudulent cases in a banking database, with the presence of a class imbalance.</p>
+                            <h5 style="margin-top: 2%; margin-bottom: 2%;">Skills: Machine learning, Programming (Python)</h6>
+                            
+                            <li><strong>Experimental project | Ecole Centrale Casablanca | February 2024 - June 2024</strong></li>
+                            <p style="margin-top: 0; margin-bottom: 0;">Group project developed throughout the second semester, where we are tasked at measuring the dielectric permittivity constant, using different devices that the school laboratory provides.</p>
+                            <h5 style="margin-top: 2%; margin-bottom: 2%;">Skills: Mathematics, Physics</h6> 
+                        </ul>
+                    </div>
+                </div>
+                <div id="section3" class="row" style="margin-left: 5%; margin-right: 5%;">
+                    <hr>
+                    <div class="twelve columns">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li><strong>Programming: </strong><br>C, Python, Lua (Proficient) | HTML, CSS, JavaScript, Java, C++, C# (Prior experience)</li>
+                            <li><strong>Languages: </strong><br>English (Bilingual) | Arabic (Native) | French (Professional working proficiency)</li>
+                            <li><strong>Game development: </strong>Godot, ROBLOX Studio, Unity</li>
+                            <li><strong>Web development: </strong>Front-end, Back-end</li>
+                            <li><strong>Interests: </strong>Mathematics, Physics, Computer Science, Machine learning</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="section4" class="row" style="margin-left: 5%; margin-right: 5%;">
+                    <hr>
+                    <div class="twelve columns">
                         <h2>Education</h2>
                         <ul>
-                            <li>MPSI/MP, CPGE Lycée Moulay Youssef, 2021-2023</li>
-                            <li>Computer Science, Ecole Centrale Casablanca, 2023-present</li>
+                            <li><strong>Ecole Centrale Casablanca | September 2023 - present</strong></li>
+                            <h5 style="margin-top: 2%; margin-bottom: 2%;">Skills: Mathematics, Physics, Computer Science, Languages, Industrial engineering, Social sciences</h6>
+                            <li><strong>CPGE Lycée Moulay Youssef (MPSI, MP) | September 2021 - June 2023</strong></li>
+                            <h5 style="margin-top: 2%; margin-bottom: 2%;">Skills: Mathematics, Physics, Computer Science, Languages</h6>
+                        </ul>
+                    </div>
+                </div>
+                <div id="section5" class="row" style="margin-left: 5%; margin-right: 5%;">
+                    <hr>
+                    <div class="twelve columns">
+                        <h2>Extracurricular activities</h2>
+                        <p>Participated in several competitive coding contests including: </p>
+                        <ul>
+                            <li>ITHOLIC organized by ENSIAS online, in April 2022</li>
+                            <li>JNJD organized by INPT, Rabat, in May 2022</li>
+                            <li>Game of Codes organized by INSEA, Rabat, in May 2022</li>
+                            <li>CODE IT organized by EHTP, Casablanca, in June 2022</li>
+                            <li>MNPC 2022 organized by 1337, Khouribga, in October 2022</li>
+                            <li>ITHOLIC organized by ENSIAS, Rabat, in March 2024</li>
                         </ul>
                     </div>
                 </div>
