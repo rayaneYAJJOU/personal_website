@@ -8,7 +8,7 @@ body {
     background-repeat: repeat;
     background-position: 0 0;
     background-size: auto 37.5vh;
-    animation: animatedBackground 500s linear infinite;
+    animation: animatedBackground 15000s linear infinite;
 }
 
 @keyframes animatedBackground {
@@ -16,7 +16,7 @@ body {
       background-position: 0 0;
     }
     to {
-      background-position: -10000px -10000px;
+      background-position: -100000px -100000px;
     }
 }
 
@@ -25,7 +25,7 @@ p {
 }
 
 li {
-    line-height: 3.5;
+    line-height: 2.5;
 }
 
 .container {
@@ -63,4 +63,55 @@ li {
 
 .hidden:hover {
     color: cornflowerblue;
+}
+
+nav {
+    top: 0;
+    width: 100vw;
+    height: .5%;
+    background-color: rgb(140, 191, 236);
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.section {
+    padding-top: 20px; /* Add padding-top to account for the fixed nav */
+    box-sizing: border-box; /* Ensure padding is included in the height calculation */
+}
+
+#backToTop {
+    display: none; /* Initially hidden */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    z-index: 1001;
+}
+
+#backToTop:hover {
+    background-color: #555;
 }
